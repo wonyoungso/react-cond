@@ -114,7 +114,7 @@ var value = exports.value = function value(name, condition) {
 	};
 };
 
-var Clause = exports.Clause = _react2.default.createClass({
+var Clause = exports.Clause = createReactClass({
 	displayName: 'Clause',
 	getDefaultProps: function getDefaultProps() {
 		return _defineProperty({}, CASE_SYMBOL, true);
@@ -124,7 +124,7 @@ var Clause = exports.Clause = _react2.default.createClass({
 	}
 });
 
-var Default = exports.Default = _react2.default.createClass({
+var Default = exports.Default = createReactClass({
 	displayName: 'Default',
 	getDefaultProps: function getDefaultProps() {
 		return _defineProperty({
