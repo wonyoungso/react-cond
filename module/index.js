@@ -13,7 +13,9 @@ const makeClause = compare => ([condition, result]) =>
 
 const findFirst = (arr, cond) => arr.filter((_val, i ) => cond(arr[i]))[0];
 
-export const Cond = React.createClass({
+var createReactClass = require('create-react-class');
+
+export const Cond = createReactClass({
 
 	getDefaultProps() {
 		return {
